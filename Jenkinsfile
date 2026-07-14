@@ -4,7 +4,7 @@ pipeline {
 
     environment {
 
-        IMAGE_NAME = "YOUR_DOCKERHUB_USERNAME/nginx-demo"
+        IMAGE_NAME = "bauriyanitin/nginx-demo"
 
         IMAGE_TAG = "${BUILD_NUMBER}"
 
